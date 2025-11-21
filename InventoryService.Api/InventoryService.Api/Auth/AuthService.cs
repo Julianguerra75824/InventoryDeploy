@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace InventoryService.Api.Auth;
 
-public interface IAuthService
+public interface IAuthService 
 {
     string? Authenticate(string username, string password);
 }
